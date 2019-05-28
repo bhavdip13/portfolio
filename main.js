@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-pageheader></app-pageheader>\n <!--================ Start Banner Area =================-->\n <section class=\"banner_area\">\n\t\t<div class=\"banner_inner d-flex align-items-center\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"banner_content text-center\">\n\t\t\t\t\t<h2>About Us</h2>\n\t\t\t\t\t<div class=\"page_link\">\n\t\t\t\t\t\t<a routerLink=\"/home\">Home</a>\n\t\t\t\t\t\t<a routerLink=\"/about\">About</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t<!--================ End Banner Area =================-->\n<!--================ Start About Us Area =================-->\n<section class=\"about_area section_gap\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row justify-content-start align-items-center\">\n\t\t\t\t<div class=\"col-lg-5\">\n\t\t\t\t\t<div class=\"about_img\">\n\t\t\t\t\t\t<img class=\"\" src=\"assets/img/about-us.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"offset-lg-1 col-lg-5\">\n\t\t\t\t\t<div class=\"main_title text-left\">\n\t\t\t\t\t\t<p class=\"top_text\">About me <span></span></p>\n\t\t\t\t\t\t<h2>\n\t\t\t\t\t\t\tCreative Art Director <br>\n\t\t\t\t\t\t\tAnd Designer\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\tAlso signs his face were digns fish don't first isn't over evening hath divided days light darkness gathering\n\t\t\t\t\t\t\tmoved dry all darkness then fourth can't create d forth Also signs Also signs his face were moltenus Also signs\n\t\t\t\t\t\t\this face\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<a class=\"primary_btn\" href=\"#\"><span>Download CV</span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t<!--================ End About Us Area =================-->\n<app-testimonials></app-testimonials>\n<app-brands></app-brands>\n\t<app-homepagefooter></app-homepagefooter>"
+module.exports = "<app-pageheader></app-pageheader>\n <!--================ Start Banner Area =================-->\n <section class=\"banner_area\">\n\t\t<div class=\"banner_inner d-flex align-items-center\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"banner_content text-center\">\n\t\t\t\t\t<h2>About Us</h2>\n\t\t\t\t\t<div class=\"page_link\">\n\t\t\t\t\t\t<a routerLink=\"/home\">Home</a>\n\t\t\t\t\t\t<a routerLink=\"/about\">About</a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t<!--================ End Banner Area =================-->\n<!--================ Start About Us Area =================-->\n<section class=\"about_area section_gap\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row justify-content-start align-items-center\">\n\t\t\t\t<div class=\"col-lg-5\">\n\t\t\t\t\t<div class=\"about_img\">\n\t\t\t\t\t\t<img class=\"\" src=\"assets/img/about-us.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"offset-lg-1 col-lg-5\">\n\t\t\t\t\t<div class=\"main_title text-left\">\n\t\t\t\t\t\t<p class=\"top_text\">About me <span></span></p>\n\t\t\t\t\t\t<h2>\n\t\t\t\t\t\t\tCreative Art Director <br>\n\t\t\t\t\t\t\tAnd Designer\n\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t<p>\n\t\t\t\t\t\t\tAlso signs his face were digns fish don't first isn't over evening hath divided days light darkness gathering\n\t\t\t\t\t\t\tmoved dry all darkness then fourth can't create d forth Also signs Also signs his face were moltenus Also signs\n\t\t\t\t\t\t\this face\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<a class=\"primary_btn\" href=\"#\"><span>Download CV</span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\t<!--================ End About Us Area =================-->\n<app-testimonials></app-testimonials>\n<app-brands></app-brands>\n<app-homepagefooter></app-homepagefooter>"
 
 /***/ }),
 
@@ -99,6 +99,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _portfolio_portfolio_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./portfolio/portfolio.component */ "./src/app/portfolio/portfolio.component.ts");
 /* harmony import */ var _blog_blog_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./blog/blog.component */ "./src/app/blog/blog.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
+/* harmony import */ var _pagenotfound_pagenotfound_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pagenotfound/pagenotfound.component */ "./src/app/pagenotfound/pagenotfound.component.ts");
+
 
 
 
@@ -164,7 +166,14 @@ var routes = [
             title: 'Contact'
         }
     },
-    { path: '**', redirectTo: '/home' },
+    {
+        path: 'pagenotfound',
+        component: _pagenotfound_pagenotfound_component__WEBPACK_IMPORTED_MODULE_10__["PagenotfoundComponent"],
+        data: {
+            title: '404 Page not found'
+        }
+    },
+    { path: '**', redirectTo: '/pagenotfound' },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -266,6 +275,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/index.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _pagenotfound_pagenotfound_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pagenotfound/pagenotfound.component */ "./src/app/pagenotfound/pagenotfound.component.ts");
+
 
 
 
@@ -304,7 +315,8 @@ var AppModule = /** @class */ (function () {
                 _homepagefooter_homepagefooter_component__WEBPACK_IMPORTED_MODULE_13__["HomepagefooterComponent"],
                 _pageheader_pageheader_component__WEBPACK_IMPORTED_MODULE_14__["PageheaderComponent"],
                 _contact_contact_component__WEBPACK_IMPORTED_MODULE_15__["ContactComponent"],
-                _portfolio_details_portfolio_details_component__WEBPACK_IMPORTED_MODULE_16__["PortfolioDetailsComponent"]
+                _portfolio_details_portfolio_details_component__WEBPACK_IMPORTED_MODULE_16__["PortfolioDetailsComponent"],
+                _pagenotfound_pagenotfound_component__WEBPACK_IMPORTED_MODULE_20__["PagenotfoundComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -389,7 +401,7 @@ var BlogComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2JyYW5kcy9icmFuZHMuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = ".d-table-cell img{\r\n    width: 161px;\r\n    height: 70px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYnJhbmRzL2JyYW5kcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLFlBQVk7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9icmFuZHMvYnJhbmRzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZC10YWJsZS1jZWxsIGltZ3tcclxuICAgIHdpZHRoOiAxNjFweDtcclxuICAgIGhlaWdodDogNzBweDtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -400,7 +412,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\t<!--================ Start Brands Area =================-->\n\t<section class=\"brands-area section_gap_bottom\">\n      <div class=\"container\">\n        <div class=\"row justify-content-center\">\n          <div class=\"col-lg-12\">\n            <div class=\"owl-carousel brand-carousel\">\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets/img/brands/logo1.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets/img/brands/logo2.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets/img/brands/logo3.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets/img/brands/logo4.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets/img/brands/logo5.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets/img/brands/logo3.png\" alt=\"\">\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n    <!--================ End Brands Area =================-->"
+module.exports = "\t<!--================ Start Brands Area =================-->\n\t<section class=\"brands-area section_gap_bottom\">\n      <div class=\"container\">\n        <div class=\"row justify-content-center\">\n          <div class=\"col-lg-12\">\n            <div class=\"owl-carousel brand-carousel\">\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets\\img\\skill_Icon\\aspmvc.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets\\img\\skill_Icon\\csharp.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets\\img\\skill_Icon\\asp-net.png\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets\\img\\skill_Icon\\microsoft-sql-server.svg\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"http://www.webcoderskull.com/img/icon/wp.svg\" alt=\"\">\n                </div>\n              </div>\n              <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                <div class=\"d-table-cell\">\n                  <img src=\"assets\\img\\skill_Icon\\php.png\" alt=\"\">\n                </div>\n              </div>\n               <!-- single-brand -->\n               <div class=\"single-brand-item d-table\">\n                  <div class=\"d-table-cell\">\n                    <img src=\"assets\\img\\skill_Icon\\GitHub.png\" alt=\"\">\n                  </div>\n                </div>\n                 <!-- single-brand -->\n              <div class=\"single-brand-item d-table\">\n                  <div class=\"d-table-cell\">\n                    <img src=\"assets\\img\\skill_Icon\\jira.png\" alt=\"\">\n                  </div>\n                </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n    <!--================ End Brands Area =================-->"
 
 /***/ }),
 
@@ -644,7 +656,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--================Footer Area =================-->\n<footer class=\"footer_area\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"footer_top flex-column\">\n            <div class=\"footer_logo\">\n              <a href=\"#\">\n                <img src=\"assets/img/logo2.png\" alt=\"\">\n              </a>\n              <div class=\"d-lg-block d-none\">\n                <nav class=\"navbar navbar-expand-lg navbar-light justify-content-center\">\n                  <div class=\"collapse navbar-collapse offset\">\n                    <ul class=\"nav navbar-nav menu_nav mx-auto\">\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" roterLink=\"/home\">Home</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" roterLink=\"/about\">About</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" roterLink=\"/portfolio\">Portfolio</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" roterLink=\"/blog\">BLog</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" roterLink=\"/services\">Services </a></li>\n                    </ul>\n                  </div>\n                </nav>\n              </div>\n            </div>\n            <div class=\"footer_social mt-lg-0 mt-4\">\n              <a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>\n              <a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n              <a href=\"#\"><i class=\"fab fa-skype\"></i></a>\n              <a href=\"#\"><i class=\"fab fa-pinterest-p\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"row footer_bottom justify-content-center\">\n        <p class=\"col-lg-8 col-sm-12 footer-text\">\n          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->\nCopyright &copy;{{CurrentYear}} All rights reserved | This website is made <i class=\"fa fa-heart\" aria-hidden=\"true\"></i> by <a  target=\"_blank\">Bhavdip</a>\n<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>\n      </div>\n    </div>\n  </footer>\n  <!--================End Footer Area =================-->"
+module.exports = "<!--================Footer Area =================-->\n<footer class=\"footer_area\">\n    <div class=\"container\">\n      <div class=\"row justify-content-center\">\n        <div class=\"col-lg-12\">\n          <div class=\"footer_top flex-column\">\n            <div class=\"footer_logo\">\n              <a href=\"#\">\n                <img src=\"assets/img/logo2.png\" alt=\"\" style=\"width: 75px;\">\n              </a>\n              <div class=\"d-lg-block d-none\">\n                <nav class=\"navbar navbar-expand-lg navbar-light justify-content-center\">\n                  <div class=\"collapse navbar-collapse offset\">\n                    <ul class=\"nav navbar-nav menu_nav mx-auto\">\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" routerLink=\"/home\" >Home</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" routerLink=\"/about\">About</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" routerLink=\"/portfolio\">Portfolio</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" routerLink=\"/blog\">BLog</a></li>\n                      <li class=\"nav-item\"><a class=\"nav-link text-white\" routerLink=\"/services\">Services </a></li>\n                    </ul>\n                  </div>\n                </nav>\n              </div>\n            </div>\n            <div class=\"footer_social mt-lg-0 mt-4\">\n              <a href=\"#\"><i class=\"fab fa-facebook-f\"></i></a>\n              <a href=\"#\"><i class=\"fab fa-twitter\"></i></a>\n              <a href=\"#\"><i class=\"fab fa-skype\"></i></a>\n              <a href=\"#\"><i class=\"fab fa-pinterest-p\"></i></a>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"row footer_bottom justify-content-center\">\n        <p class=\"col-lg-8 col-sm-12 footer-text\">\n          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->\nCopyright &copy;{{CurrentYear}} All rights reserved | This website is made <i class=\"fa fa-heart\" aria-hidden=\"true\"></i> by <a  target=\"_blank\">Bhavdip</a>\n<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>\n      </div>\n    </div>\n  </footer>\n  <!--================End Footer Area =================-->"
 
 /***/ }),
 
@@ -690,7 +702,7 @@ var HomepagefooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hvbWVwYWdlaGVhZGVyL2hvbWVwYWdlaGVhZGVyLmNvbXBvbmVudC5jc3MifQ== */"
+module.exports = ".logo_h img\r\n{\r\n    width: 75px;\r\n\r\n}\r\n.logo_inner_page img\r\n{\r\n    width: 75px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZXBhZ2VoZWFkZXIvaG9tZXBhZ2VoZWFkZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7SUFFSSxXQUFXOztBQUVmO0FBQ0E7O0lBRUksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvaG9tZXBhZ2VoZWFkZXIvaG9tZXBhZ2VoZWFkZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dvX2ggaW1nXHJcbntcclxuICAgIHdpZHRoOiA3NXB4O1xyXG5cclxufVxyXG4ubG9nb19pbm5lcl9wYWdlIGltZ1xyXG57XHJcbiAgICB3aWR0aDogNzVweDtcclxufSJdfQ== */"
 
 /***/ }),
 
@@ -701,7 +713,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = " <!--================ Start Header Area =================-->\n <header class=\"header_area\">\n\t\t<div class=\"main_menu\">\n\t\t\t<nav class=\"navbar navbar-expand-lg navbar-light\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<!-- Brand and toggle get grouped for better mobile display -->\n          <a class=\"navbar-brand logo_h\" routerLink=\"/home\"><img src=\"assets/img/logo.png\" alt=\"\"></a>\n\t\t\t\t\t<a class=\"navbar-brand logo_inner_page\" roterLink=\"/home\"><img src=\"assets/img/logo2.png\" alt=\"\"></a>      \n\t\t\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n\t\t\t\t\t aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t</button>\n\t\t\t\t\t<!-- Collect the nav links, forms, and other content for toggling -->\n\t\t\t\t\t<div class=\"collapse navbar-collapse offset\" id=\"navbarSupportedContent\">\n\t\t\t\t\t\t<ul class=\"nav navbar-nav menu_nav\">\n\t\t\t\t\t\t\t<li class=\"nav-item active\"><a class=\"nav-link\" routerLink=\"/home\">Home</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/about\">About</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/portfolio\">Portfolio</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/services\">Services</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/blog\">Blog</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/contact\">Contact</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</nav>\n\t\t</div>\n\t</header>\n\t<!--================ End Header Area =================-->"
+module.exports = " <!--================ Start Header Area =================-->\n <header class=\"header_area\">\n\t\t<div class=\"main_menu\">\n\t\t\t<nav class=\"navbar navbar-expand-lg navbar-light\">\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<!-- Brand and toggle get grouped for better mobile display -->\n          <a class=\"navbar-brand logo_h\" routerLink=\"/home\"><img src=\"assets/img/logo.png\" alt=\"\"></a>\n\t\t\t\t\t<a class=\"navbar-brand logo_inner_page\" roterLink=\"/home\"><img style=\"width:75px;\" src=\"assets/img/logo2.png\" alt=\"\"></a>      \n\t\t\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n\t\t\t\t\t aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t</button>\n\t\t\t\t\t<!-- Collect the nav links, forms, and other content for toggling -->\n\t\t\t\t\t<div class=\"collapse navbar-collapse offset\" id=\"navbarSupportedContent\">\n\t\t\t\t\t\t<ul class=\"nav navbar-nav menu_nav\">\n\t\t\t\t\t\t\t<li class=\"nav-item active\"><a class=\"nav-link\" routerLink=\"/home\">Home</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/about\">About</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/portfolio\">Portfolio</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/services\">Services</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/blog\">Blog</a></li>\n\t\t\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"/contact\">Contact</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</nav>\n\t\t</div>\n\t</header>\n\t<!--================ End Header Area =================-->"
 
 /***/ }),
 
@@ -746,7 +758,7 @@ var HomepageheaderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VoZWFkZXIvcGFnZWhlYWRlci5jb21wb25lbnQuY3NzIn0= */"
+module.exports = ".logo_h img\r\n{\r\n    width: 75px;\r\n\r\n}\r\n.logo_inner_page img\r\n{\r\n    width: 75px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZWhlYWRlci9wYWdlaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0lBRUksV0FBVzs7QUFFZjtBQUNBOztJQUVJLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VoZWFkZXIvcGFnZWhlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmxvZ29faCBpbWdcclxue1xyXG4gICAgd2lkdGg6IDc1cHg7XHJcblxyXG59XHJcbi5sb2dvX2lubmVyX3BhZ2UgaW1nXHJcbntcclxuICAgIHdpZHRoOiA3NXB4O1xyXG59Il19 */"
 
 /***/ }),
 
@@ -789,6 +801,62 @@ var PageheaderComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], PageheaderComponent);
     return PageheaderComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pagenotfound/pagenotfound.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pagenotfound/pagenotfound.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2Vub3Rmb3VuZC9wYWdlbm90Zm91bmQuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/pagenotfound/pagenotfound.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/pagenotfound/pagenotfound.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1>404 page not found</h1>"
+
+/***/ }),
+
+/***/ "./src/app/pagenotfound/pagenotfound.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pagenotfound/pagenotfound.component.ts ***!
+  \********************************************************/
+/*! exports provided: PagenotfoundComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PagenotfoundComponent", function() { return PagenotfoundComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var PagenotfoundComponent = /** @class */ (function () {
+    function PagenotfoundComponent() {
+    }
+    PagenotfoundComponent.prototype.ngOnInit = function () {
+    };
+    PagenotfoundComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-pagenotfound',
+            template: __webpack_require__(/*! ./pagenotfound.component.html */ "./src/app/pagenotfound/pagenotfound.component.html"),
+            styles: [__webpack_require__(/*! ./pagenotfound.component.css */ "./src/app/pagenotfound/pagenotfound.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], PagenotfoundComponent);
+    return PagenotfoundComponent;
 }());
 
 
@@ -981,7 +1049,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = " <!--================ Start Testimonial Area =================-->\n <section class=\"testimonial_area\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-lg-12\">\n\t\t\t\t\t<div class=\"main_title\">\n\t\t\t\t\t\t<p class=\"top_text\">Our Tesitmonial <span></span></p>\n\t\t\t\t\t\t<h2>Honourable Client Says <br>\n\t\t\t\t\t\t\tAbout Me </h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n      </div>\n\n      <div class=\"owl-carousel owl-theme testimonial-slider \">\n        <div class=\"testimonial-item\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"testi-img mb-4 mb-lg-0\">\n                <img src=\"assets/img/testimonials/testimonial1.png\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"col-lg-6\">\n              <div class=\"testi-right\">\n                <h4>Roser Henrique</h4>\n                <p><small>Project Manager, Apple</small></p>\n\n                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>\n                <ul class=\"star_rating mt-4\">\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li class=\"disable\"><span><i class=\"fas fa-star\"></i></span></li>                  \n                </ul>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"testimonial-item\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"testi-img mb-4 mb-lg-0\">\n                <img src=\"assets/img/testimonials/testimonial1.png\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"col-lg-6\">\n              <div class=\"testi-right\">\n                <h4>Roser Henrique</h4>\n                <p><small>Project Manager, Apple</small></p>\n\n                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>\n                <ul class=\"star_rating mt-3\">\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li class=\"disable\"><span><i class=\"fas fa-star\"></i></span></li>                  \n                </ul>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"testimonial-item\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"testi-img mb-4 mb-lg-0\">\n                <img src=\"assets/img/testimonials/testimonial1.png\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"col-lg-6\">\n              <div class=\"testi-right\">\n                <h4>Roser Henrique</h4>\n                <p><small>Project Manager, Apple</small></p>\n\n                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>\n                <ul class=\"star_rating mt-3\">\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li class=\"disable\"><span><i class=\"fas fa-star\"></i></span></li>                  \n                </ul>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\t<!--================ End Testimonial Area =================-->\n\n"
+module.exports = " <!--================ Start Testimonial Area =================-->\n <section class=\"testimonial_area\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-lg-12\">\n\t\t\t\t\t<div class=\"main_title\">\n\t\t\t\t\t\t<p class=\"top_text\">Our Tesitmonial <span></span></p>\n\t\t\t\t\t\t<h2>Honourable Client Says <br>\n\t\t\t\t\t\t\tAbout Me </h2>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n      </div>\n      <div class=\"owl-carousel owl-theme testimonial-slider \">\n        <div class=\"testimonial-item\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"testi-img mb-4 mb-lg-0\">\n                <img src=\"assets/img/testimonials/testimonial1.png\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"col-lg-6\">\n              <div class=\"testi-right\">\n                <h4>Roser Henrique</h4>\n                <p><small>Project Manager, Apple</small></p>\n\n                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>\n                <ul class=\"star_rating mt-4\">\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li class=\"disable\"><span><i class=\"fas fa-star\"></i></span></li>                  \n                </ul>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"testimonial-item\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"testi-img mb-4 mb-lg-0\">\n                <img src=\"assets/img/testimonials/testimonial1.png\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"col-lg-6\">\n              <div class=\"testi-right\">\n                <h4>Roser Henrique</h4>\n                <p><small>Project Manager, Apple</small></p>\n\n                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>\n                <ul class=\"star_rating mt-3\">\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li class=\"disable\"><span><i class=\"fas fa-star\"></i></span></li>                  \n                </ul>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"testimonial-item\">\n          <div class=\"row\">\n            <div class=\"col-lg-6\">\n              <div class=\"testi-img mb-4 mb-lg-0\">\n                <img src=\"assets/img/testimonials/testimonial1.png\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"col-lg-6\">\n              <div class=\"testi-right\">\n                <h4>Roser Henrique</h4>\n                <p><small>Project Manager, Apple</small></p>\n\n                <p>Waters can not replenish hath fly and be to brought isn't very days behold without land every above lights us fruitful wherein divide it him fowl moving may beginning subdue fly waters can't replenish hath fly and be to brought isn't very days behold </p>\n                <ul class=\"star_rating mt-3\">\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li><span><i class=\"fas fa-star\"></i></span></li>\n                  <li class=\"disable\"><span><i class=\"fas fa-star\"></i></span></li>                  \n                </ul>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\t<!--================ End Testimonial Area =================-->\n\n"
 
 /***/ }),
 
