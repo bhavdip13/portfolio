@@ -1,185 +1,356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico">
-	<title>Bhavdip Talaviya Asp.Net MVC web developer and freelance project manager</title>
-	<meta name="description" content="I'm a web developer and web designer living in surat, gujarat, India. I will do website development with Asp.Net MVC, C#, Jquery, Javascript, SQL, Angular, Web API, ASMX services and WORDPRESS, Take a look at my work">
-	<meta name="keywords" content="Asp.Net MVC, C#, Jquery, JavaScript, SQL, EntityFramework, Angular, Node.js, Web API, Web Services, freelancer in surat, web developer in surat, website designer, full stack developer, MEAN Stack developer, WORDPRESS website development, CMS, PHP, Mysql">
-	<link rel="canonical" href="https://bhavdip13.github.io/portfolio" />
-	<meta content="INDEX,FOLLOW" name="robots" />
-	<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=EDGE" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavdip Talaviya | AI-Powered Lead .NET Architect</title>
+    <meta name="description" content="Bhavdip Talaviya — Lead .NET Full Stack Developer & AI Innovation Architect with 10+ years of experience.">
+    <meta name="author" content="Bhavdip Talaviya">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bhavdip13.github.io/portfolio/">
+    <meta property="og:title" content="Bhavdip Talaviya | AI-Powered Lead .NET Architect">
+    <meta property="og:description" content="Lead .NET Full Stack Developer with 10+ years. AI consulting available.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bhavdip13.github.io/portfolio/">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Bhavdip Talaviya","jobTitle":"Lead .NET Software Engineer","email":"talaviya.bhavdip@gmail.com","sameAs":["https://linkedin.com/in/bhavdiptalaviya","https://github.com/bhavdip13"]}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0a;--bg2:#111;--bgc:#141414;--w:#fff;--g2:#d4d4d4;--g3:#a3a3a3;--g4:#737373;--g5:#525252;--g6:#404040;--g7:#2a2a2a;--ac:#00e5ff;--ac2:#7c3aed;--ac3:#06d6a0;--gr1:linear-gradient(135deg,#00e5ff,#7c3aed);--fp:'Plus Jakarta Sans',sans-serif;--fh:'Space Grotesk',sans-serif;--fm:'Fira Code',monospace;--ease:cubic-bezier(.16,1,.3,1)}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:var(--ac) var(--bg)}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--ac);border-radius:10px}
+body{font-family:var(--fp);background:var(--bg);color:var(--g2);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}img{max-width:100%;display:block}::selection{background:var(--ac);color:var(--bg)}
+.container{max-width:1440px;margin:0 auto;padding:0 clamp(16px,3vw,32px);width:100%}
 
+/* Preloader */
+.preloader{position:fixed;inset:0;z-index:99999;background:var(--bg);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;transition:opacity .6s,visibility .6s}
+.preloader.done{opacity:0;visibility:hidden;pointer-events:none}
+.pbar{width:200px;height:2px;background:var(--g7);border-radius:2px;overflow:hidden}
+.pfill{height:100%;width:0;background:var(--gr1);animation:loadB 1.2s var(--ease) forwards}
+@keyframes loadB{to{width:100%}}
+.ptxt{font-family:var(--fm);font-size:.75rem;color:var(--g4);letter-spacing:.15em;text-transform:uppercase}
 
-<!-- Twitter Card data -->
-<meta name="twitter:title" content="Bhavdip talaviya web application developer">
-<meta name="twitter:description" content="Build your responsive web application with Asp.Net MVC, web services, web API, wordpress, PHP, SQL, Angular, JQuery, Javascript, Node.js and many more, just fill the inquiry from the contact us page.">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="Bhavdip portfolio">
-<meta name="twitter:creator" content="BhavdipTalaviya">
-<meta name="twitter:image" content="assets/img/logo.png">
+/* Cursor */
+.cdot{position:fixed;width:6px;height:6px;background:var(--ac);border-radius:50%;pointer-events:none;z-index:100000;mix-blend-mode:difference}
+.cring{position:fixed;width:40px;height:40px;border:1px solid rgba(0,229,255,.3);border-radius:50%;pointer-events:none;z-index:100000;transition:all .15s}
 
-<meta name="twitter:image:alt" content="Build your responsive web application with Asp.Net MVC, web services, web API, wordpress, PHP, SQL, Angular, JQuery, Javascript, Node.js and many more, just fill the inquiry from the contact us page.">
+/* Nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:9000;padding:18px 0;transition:all .4s var(--ease)}
+.nav.scrolled{padding:10px 0;background:rgba(10,10,10,.85);backdrop-filter:blur(24px);border-bottom:1px solid rgba(255,255,255,.04)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-family:var(--fh);font-size:1.5rem;font-weight:700;color:var(--w)}
+.nav-logo .dot{color:var(--ac)}
+.nav-menu{display:flex;align-items:center;gap:32px;list-style:none}
+.nav-menu a{font-size:.85rem;font-weight:500;color:var(--g3);transition:color .3s}
+.nav-menu a:hover{color:var(--w)}
+.nav-cta{padding:10px 24px;border-radius:50px;background:var(--w);color:var(--bg);font-size:.82rem;font-weight:600;transition:all .3s;display:inline-block}
+.nav-cta:hover{background:var(--ac);transform:scale(1.05)}
+.hamburger{display:none;cursor:pointer;z-index:9001;flex-direction:column;gap:6px;padding:4px}
+.hamburger span{width:26px;height:2px;background:var(--w);border-radius:2px;transition:all .3s;display:block}
+.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,6px)}
+.hamburger.active span:nth-child(2){opacity:0}
+.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-6px)}
 
-<!-- Facebook and whats app Open Graph data -->
-<meta content='en_US' property='og:locale' />
-<meta content='en_GB' property='og:locale:alternate' />
-<meta property="og:title" content="Bhavdip talaviya web application developer" />
-<meta property="og:site_name" content="Bhavdip Portfolio" />
-<meta property="og:url" name="site_url" content="https://bhavdip13.github.io/portfolio" />
-<meta property="og:description" content="Build your responsive web application with Asp.Net MVC, web services, web API, wordpress, PHP, SQL, Angular, JQuery, Javascript, Node.js and many more, just fill the inquiry from the contact us page." />
-<meta property="og:type" content="Greetings Card" />
-<meta property="og:image" content="assets/img/logo.png" style="height:800px;width:1200px" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="800" />
-<meta name="og:image:alt" content="Build your responsive web application with Asp.Net MVC, web services, web API, wordpress, PHP, SQL, Angular, JQuery, Javascript, Node.js and many more, just fill the inquiry from the contact us page.">
-<meta content='Bhavdip Talaviya' property='article:author' />
-<meta property="article:publisher" content="Bhavdip Talaviya" />
-
-<!-- Google+ Meta Tags. -->
-<meta itemprop="name" content="Bhavdip talaviya web application developer">
-<meta itemprop="description" content="Build your responsive web application with Asp.Net MVC, web services, web API, wordpress, PHP, SQL, Angular, JQuery, Javascript, Node.js and many more, just fill the inquiry from the contact us page." />
-<meta itemprop="image" content="assets/img/logo.png">
-	<base href="https://bhavdip13.github.io/portfolio/">
-
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/vendors/linericon/style.css">
-	<link rel="stylesheet" href="assets/css/themify-icons.css">
-	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/vendors/nice-select/css/nice-select.css">
-	<!-- main css -->
-	<link rel="stylesheet" href="assets/css/style.css">
-
+/* Hero */
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding:100px 0 60px}
+.hero-bg-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:80px 80px}
+.hero-glow1{position:absolute;width:800px;height:800px;border-radius:50%;background:radial-gradient(circle,rgba(0,229,255,.06),transparent 70%);top:-200px;right:-200px}
+.hero-glow2{position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(124,58,237,.05),transparent 70%);bottom:-100px;left:-100px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:50px;background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.12);font-family:var(--fm);font-size:.72rem;color:var(--ac);margin-bottom:24px;animation:fadeUp .8s var(--ease) .2s both}
+.hero-eyebrow-dot{width:7px;height:7px;border-radius:50%;background:var(--ac3);animation:breathe 2s ease infinite}
+@keyframes breathe{0%,100%{box-shadow:0 0 0 0 rgba(6,214,160,.4)}50%{box-shadow:0 0 0 5px rgba(6,214,160,0)}}
+.hero-name{font-family:var(--fh);font-weight:700;font-size:clamp(1.8rem,3vw,2.5rem);color:var(--w);margin-bottom:8px;animation:fadeUp .8s var(--ease) .3s both}
+.hero-title{font-family:var(--fh);font-size:clamp(2.5rem,5vw,4.5rem);font-weight:700;line-height:1.05;letter-spacing:-.04em;color:var(--w);margin-bottom:20px;animation:fadeUp .8s var(--ease) .4s both}
+.hero-title .acc{background:var(--gr1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-desc{font-size:1rem;color:var(--g3);max-width:520px;line-height:1.8;margin-bottom:16px;animation:fadeUp .8s var(--ease) .5s both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+/* Terminal */
+.hero-term{background:rgba(20,20,20,.9);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:18px 22px;font-family:var(--fm);font-size:.78rem;margin-bottom:28px;backdrop-filter:blur(10px);animation:fadeUp .8s var(--ease) .6s both;position:relative;overflow:hidden}
+.hero-term::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:var(--gr1);opacity:.4}
+.tbar{display:flex;gap:6px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.04)}
+.td{width:10px;height:10px;border-radius:50%}.tdr{background:#ff5f56}.tdy{background:#ffbd2e}.tdg{background:#27c93f}
+.tl{margin-bottom:5px;color:var(--g4)}.tp{color:var(--ac3)}.tc{color:var(--ac)}.ts{color:#f97316}.tok{color:var(--ac3)}.tcm{color:var(--g5);font-style:italic}
+.tcur{display:inline-block;width:9px;height:16px;background:var(--ac);animation:blink 1s step-end infinite;vertical-align:text-bottom;margin-left:2px}
+@keyframes blink{50%{opacity:0}}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;animation:fadeUp .8s var(--ease) .7s both}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 28px;border-radius:50px;font-size:.88rem;font-weight:600;transition:all .3s var(--ease);border:none;cursor:pointer;font-family:var(--fp)}
+.btn-f{background:var(--w);color:var(--bg)}.btn-f:hover{background:var(--ac);transform:translateY(-2px);box-shadow:0 0 30px rgba(0,229,255,.15)}
+.btn-o{background:transparent;border:1px solid var(--g6);color:var(--w)}.btn-o:hover{border-color:var(--ac);color:var(--ac)}
+.btn-a{background:var(--gr1);color:var(--w)}.btn-a:hover{transform:translateY(-2px);box-shadow:0 0 30px rgba(0,229,255,.15)}
+.hero-stats{display:flex;gap:36px;margin-top:32px;animation:fadeUp .8s var(--ease) .8s both}
+.hsn{font-family:var(--fh);font-size:2rem;font-weight:700;color:var(--w);line-height:1}.hsl{font-size:.76rem;color:var(--g4);margin-top:3px}
+.hero-right{position:relative;display:flex;justify-content:center;align-items:center;animation:fadeUp .8s var(--ease) .5s both}
+.hero-img-wrap{position:relative;width:440px;height:540px}
+.hero-img-bg{position:absolute;inset:0;border-radius:180px 180px 36px 36px;background:linear-gradient(180deg,rgba(0,229,255,.08),rgba(124,58,237,.04));border:1px solid rgba(255,255,255,.05)}
+.hero-img-bg::before{content:'';position:absolute;inset:-2px;border-radius:inherit;background:var(--gr1);opacity:.12;z-index:-1;filter:blur(40px)}
+.hero-img{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:85%;height:auto;z-index:2}
+.hero-float{position:absolute;z-index:3;background:rgba(20,20,20,.95);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:8px 14px;backdrop-filter:blur(16px);animation:floatY 5s ease-in-out infinite;white-space:nowrap}
+.hero-float:nth-of-type(1){top:5%;right:-15px}.hero-float:nth-of-type(2){top:32%;left:-30px;animation-delay:-1.5s}.hero-float:nth-of-type(3){bottom:32%;right:-28px;animation-delay:-3s}.hero-float:nth-of-type(4){bottom:10%;left:-18px;animation-delay:-4.5s}
+@keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.fl{font-family:var(--fm);font-size:.55rem;color:var(--g5);text-transform:uppercase;letter-spacing:.1em;margin-bottom:1px}
+.fv{font-family:var(--fh);font-size:.82rem;font-weight:700;color:var(--w)}.fv .a{color:var(--ac)}
+.hero-socials{position:absolute;right:-70px;top:50%;transform:translateY(-50%);z-index:4;display:flex;flex-direction:column;align-items:center;gap:14px}
+.hero-slink{width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(0,229,255,.4);background:rgba(0,229,255,.1);display:flex;align-items:center;justify-content:center;transition:all .3s}
+.hero-slink:hover{border-color:var(--ac);background:rgba(0,229,255,.2);box-shadow:0 0 20px rgba(0,229,255,.2);transform:scale(1.1)}
+.hero-slink svg{width:18px;height:18px;fill:var(--ac)}.hero-sline{width:1px;height:30px;background:rgba(0,229,255,.25)}
+/* Mobile badges */
+.hero-mobile-badges{display:none;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:16px}
+.hm-badge{background:rgba(20,20,20,.95);border:1px solid rgba(0,229,255,.15);border-radius:8px;padding:6px 12px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.hm-badge .fl{font-size:.5rem}.hm-badge .fv{font-size:.75rem}
+.marquee{padding:24px 0;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);overflow:hidden;background:rgba(255,255,255,.02)}
+.marquee-track{display:flex;gap:50px;animation:marq 35s linear infinite;width:max-content}
+.marquee-item{font-family:var(--fh);font-size:1rem;font-weight:600;color:var(--g2);white-space:nowrap;display:flex;align-items:center;gap:10px}
+.mqdot{width:6px;height:6px;border-radius:50%;background:var(--ac)}
+@keyframes marq{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+section{position:relative;z-index:1}.sp{padding:clamp(70px,10vw,120px) 0}
+.sh{margin-bottom:50px}
+.sl{font-family:var(--fm);font-size:.72rem;color:var(--ac);text-transform:uppercase;letter-spacing:.2em;margin-bottom:12px;display:inline-flex;align-items:center;gap:10px}
+.sl::before{content:'';width:24px;height:1px;background:var(--ac)}
+.st{font-family:var(--fh);font-size:clamp(2rem,4vw,3.2rem);font-weight:700;letter-spacing:-.03em;color:var(--w);line-height:1.15}
+.st .a{background:var(--gr1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.ss{color:var(--g4);font-size:1rem;max-width:560px;margin-top:12px}.reveal{opacity:0;transform:translateY(40px);transition:all .8s var(--ease)}.reveal.vis{opacity:1;transform:translateY(0)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about-text p{color:var(--g3);margin-bottom:18px;line-height:1.8;font-size:.95rem}.about-text strong{color:var(--w)}
+.about-hl{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}.ahl{padding:18px;border-radius:14px;background:var(--bgc);border:1px solid rgba(255,255,255,.04);transition:all .3s}.ahl:hover{border-color:rgba(0,229,255,.12)}.ahl-i{font-size:1.4rem;margin-bottom:8px}.ahl-t{font-family:var(--fh);font-weight:600;font-size:.88rem;color:var(--w);margin-bottom:3px}.ahl-d{font-size:.76rem;color:var(--g4)}
+.cbanner{margin-top:30px;padding:24px 28px;border-radius:16px;background:linear-gradient(135deg,rgba(0,229,255,.05),rgba(124,58,237,.05));border:1px solid rgba(0,229,255,.1);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.cbanner h4{font-family:var(--fh);font-size:1.05rem;color:var(--w);margin-bottom:3px}.cbanner p{font-size:.82rem;color:var(--g4)}
+.ai-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.ai-card{background:var(--bgc);border:1px solid rgba(255,255,255,.04);border-radius:16px;padding:28px;transition:all .4s var(--ease);position:relative;overflow:hidden}.ai-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gr1);transform:scaleX(0);transform-origin:left;transition:transform .4s}.ai-card:hover::before{transform:scaleX(1)}.ai-card:hover{border-color:rgba(0,229,255,.1);transform:translateY(-4px)}.ai-card-i{width:44px;height:44px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:16px;background:rgba(0,229,255,.06)}.ai-card h3{font-family:var(--fh);font-size:1.05rem;font-weight:600;color:var(--w);margin-bottom:8px}.ai-card p{font-size:.82rem;color:var(--g4);line-height:1.7}.ai-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px}.ai-tag{padding:3px 9px;border-radius:5px;background:rgba(0,229,255,.04);border:1px solid rgba(0,229,255,.07);font-family:var(--fm);font-size:.62rem;color:var(--ac)}.ai-spot{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;background:linear-gradient(135deg,rgba(0,229,255,.03),rgba(124,58,237,.03))}.flow-vis{background:rgba(10,10,10,.6);border:1px solid rgba(255,255,255,.04);border-radius:12px;padding:20px;font-family:var(--fm);font-size:.72rem}.fstep{display:flex;align-items:center;gap:12px;padding:10px 0;color:var(--g3);opacity:0;animation:stepFadeIn .5s var(--ease) forwards}.fstep:nth-child(1){animation-delay:.1s}.fstep:nth-child(3){animation-delay:.3s}.fstep:nth-child(5){animation-delay:.5s}.fstep:nth-child(7){animation-delay:.7s}.fstep:nth-child(9){animation-delay:.9s}.fstep:nth-child(11){animation-delay:1.1s}@keyframes stepFadeIn{to{opacity:1}}.fnum{width:32px;height:32px;border-radius:50%;background:rgba(0,229,255,.1);border:1.5px solid rgba(0,229,255,.3);display:flex;align-items:center;justify-content:center;color:var(--ac);font-size:.7rem;font-weight:700;flex-shrink:0;box-shadow:0 0 12px rgba(0,229,255,.15);animation:numPulse 2s ease infinite}@keyframes numPulse{0%,100%{box-shadow:0 0 8px rgba(0,229,255,.15)}50%{box-shadow:0 0 18px rgba(0,229,255,.3)}}.fline{width:2px;height:16px;margin-left:15px;position:relative;overflow:hidden;background:rgba(0,229,255,.06)}.fline::after{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:linear-gradient(to bottom,var(--ac),var(--ac2));animation:lineFlow 1.5s ease infinite}@keyframes lineFlow{0%{top:-100%}100%{top:100%}}
+.timeline{max-width:880px;margin:0 auto;position:relative}.timeline::before{content:'';position:absolute;left:26px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--ac),var(--ac2),transparent);animation:tlGrow 1.5s var(--ease) forwards;transform-origin:top}@keyframes tlGrow{from{transform:scaleY(0)}to{transform:scaleY(1)}}.tl-i{padding-left:64px;margin-bottom:44px;position:relative}.tl-dot{position:absolute;left:18px;top:6px;width:18px;height:18px;border-radius:50%;background:var(--bg);border:2px solid var(--ac);box-shadow:0 0 12px rgba(0,229,255,.3);z-index:1}.tl-dot::before{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px solid rgba(0,229,255,.2);animation:dotRing 2s ease-in-out infinite}@keyframes dotRing{0%,100%{transform:scale(1);opacity:.5}50%{transform:scale(1.4);opacity:0}}.tl-dot::after{content:'';position:absolute;inset:4px;border-radius:50%;background:var(--ac);animation:dotCore 2s ease infinite}@keyframes dotCore{0%,100%{opacity:.6}50%{opacity:1}}.tl-d{font-family:var(--fm);font-size:.73rem;color:var(--ac);margin-bottom:6px}.tl-c{background:var(--bgc);border:1px solid rgba(255,255,255,.05);border-radius:14px;padding:24px;transition:all .3s}.tl-c:hover{border-color:rgba(0,229,255,.12);box-shadow:0 8px 30px rgba(0,0,0,.2)}.tl-r{font-family:var(--fh);font-size:1.15rem;font-weight:700;color:var(--w);margin-bottom:2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tl-ai{padding:2px 8px;border-radius:50px;background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.12);font-family:var(--fm);font-size:.6rem;color:var(--ac)}.tl-co{color:var(--ac);font-size:.88rem;font-weight:500;margin-bottom:12px}.tl-l{list-style:none}.tl-l li{color:var(--g3);font-size:.83rem;padding:3px 0 3px 16px;position:relative}.tl-l li::before{content:'\25B8';position:absolute;left:0;color:var(--ac)}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.sk-cat{background:var(--bgc);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:24px;transition:all .3s}.sk-cat:hover{border-color:rgba(0,229,255,.08);transform:translateY(-2px)}.sk-hd{display:flex;align-items:center;gap:10px;margin-bottom:16px}.sk-ic{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem}.sk-nm{font-family:var(--fh);font-weight:600;font-size:.9rem;color:var(--w)}.sk-tags{display:flex;flex-wrap:wrap;gap:7px}.sk-t{padding:6px 12px;border-radius:7px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);font-size:.78rem;color:var(--g3);transition:all .2s}.sk-t:hover{border-color:var(--ac);color:var(--ac)}.sk-t.glow{border-color:rgba(0,229,255,.18);color:var(--ac);background:rgba(0,229,255,.03)}
+.port-filters{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:32px}.port-filter{padding:8px 20px;border-radius:50px;border:1px solid rgba(255,255,255,.08);background:transparent;color:var(--g3);font-family:var(--fp);font-size:.82rem;font-weight:500;cursor:pointer;transition:all .3s}.port-filter:hover{border-color:var(--ac);color:var(--ac)}.port-filter.active{background:var(--ac);color:var(--bg);border-color:var(--ac);font-weight:600}
+.port-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.port-card{background:var(--bgc);border:1px solid rgba(255,255,255,.04);border-radius:16px;overflow:hidden;transition:all .4s var(--ease)}.port-card:hover{border-color:rgba(0,229,255,.12);transform:translateY(-4px);box-shadow:0 20px 50px rgba(0,0,0,.3)}.port-img{height:200px;overflow:hidden}.port-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.port-card:hover .port-img img{transform:scale(1.05)}.port-body{padding:18px 20px 22px}.port-type{font-family:var(--fm);font-size:.65rem;color:var(--ac);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}.port-title{font-family:var(--fh);font-size:1rem;font-weight:700;color:var(--w);margin-bottom:4px}.port-cat-label{font-size:.78rem;color:var(--g4)}
+.ppnav{display:flex;justify-content:center;gap:8px;margin-top:28px}.ppb{min-width:36px;height:36px;border-radius:50%;border:1px solid rgba(255,255,255,.1);background:transparent;color:var(--w);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s;font-size:.82rem;font-family:var(--fp)}.ppb:hover,.ppb.active{border-color:var(--ac);background:rgba(0,229,255,.08);color:var(--ac)}
+.awards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}.aw-card{background:var(--bgc);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:28px;text-align:center;transition:all .3s}.aw-card:hover{border-color:rgba(255,215,0,.15);transform:translateY(-2px)}.aw-i{font-size:2.2rem;margin-bottom:12px}.aw-t{font-family:var(--fh);font-weight:700;font-size:.95rem;color:var(--w);margin-bottom:4px}.aw-o{font-size:.75rem;color:var(--g5);font-family:var(--fm)}
+.edu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px;max-width:800px;margin:0 auto}.edu-c{background:var(--bgc);border:1px solid rgba(255,255,255,.04);border-radius:14px;padding:24px;transition:all .3s}.edu-c:hover{border-color:rgba(0,229,255,.08)}.edu-d{font-family:var(--fh);font-weight:700;font-size:1rem;color:var(--w);margin-bottom:3px}.edu-s{color:var(--ac);font-size:.88rem;margin-bottom:3px}.edu-dt{font-family:var(--fm);font-size:.73rem;color:var(--g5)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}.contact-left h3{font-family:var(--fh);font-size:1.6rem;font-weight:700;color:var(--w);margin-bottom:12px}.contact-left>p{color:var(--g3);margin-bottom:24px}.clinks{display:flex;flex-direction:column;gap:12px}.cl{display:flex;align-items:center;gap:14px;padding:14px 18px;background:var(--bgc);border:1px solid rgba(255,255,255,.12);border-radius:12px;transition:all .3s}.cl:hover{border-color:rgba(0,229,255,.25)}.cl-i{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1rem;background:rgba(0,229,255,.06);border:1px solid rgba(0,229,255,.15);flex-shrink:0}.cl-n{font-weight:600;font-size:.85rem;color:var(--w)}.cl-v{font-size:.76rem;color:var(--g4)}
+.contact-form{display:flex;flex-direction:column;gap:12px}.contact-form input,.contact-form textarea{width:100%;padding:14px 18px;background:rgba(20,20,20,.8);border:1.5px solid rgba(255,255,255,.18);border-radius:10px;color:var(--w);font-family:var(--fp);font-size:.88rem;outline:none;transition:border-color .3s}.contact-form input:focus,.contact-form textarea:focus{border-color:var(--ac);box-shadow:0 0 0 3px rgba(0,229,255,.06)}.contact-form input::placeholder,.contact-form textarea::placeholder{color:var(--g4)}.contact-form textarea{min-height:110px;resize:vertical}
+.footer{padding:30px 0;border-top:1px solid rgba(255,255,255,.08);background:var(--bg2)}.footer-inner{display:flex;justify-content:space-between;align-items:center}.footer-copy{color:var(--g3);font-size:.82rem}.footer-links{display:flex;gap:20px}.footer-links a{color:var(--g3);font-size:.82rem;transition:color .3s}.footer-links a:hover{color:var(--ac)}
+@media(max-width:1024px){.hero-grid{grid-template-columns:1fr;text-align:center}.hero-desc{margin:0 auto 16px}.hero-btns{justify-content:center}.hero-stats{justify-content:center}.hero-right{margin-top:32px}.hero-img-wrap{width:340px;height:420px}.hero-socials{display:none}.about-grid,.contact-grid{grid-template-columns:1fr}.ai-spot{grid-template-columns:1fr}.ai-cards{grid-template-columns:repeat(2,1fr)}.port-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.nav-menu{display:none;position:fixed;top:0;left:0;width:100%;height:100vh;background:rgba(10,10,10,.98);backdrop-filter:blur(20px);flex-direction:column;align-items:center;justify-content:center;gap:28px}.nav-menu.open{display:flex}.nav-menu a{font-size:1.2rem}.hamburger{display:flex}.cdot,.cring{display:none}.hf-desktop{display:none !important}.hero-mobile-badges{display:flex !important}.hero-img-wrap{width:220px;height:280px}.hero-img{max-height:280px !important}.hero-stats{flex-wrap:wrap;gap:20px}.ai-cards,.skills-grid{grid-template-columns:1fr}.awards-grid{grid-template-columns:1fr 1fr}.edu-grid,.about-hl{grid-template-columns:1fr}.port-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.hero-stats{flex-direction:column;align-items:center}.hero-btns{flex-direction:column;align-items:center}.btn{width:100%;justify-content:center}.cbanner{flex-direction:column;text-align:center}.awards-grid,.port-grid{grid-template-columns:1fr}.footer-inner{flex-direction:column;gap:14px;text-align:center}}
+</style>
 </head>
-
 <body>
+<div class="preloader" id="preloader"><div class="pbar"><div class="pfill"></div></div><div class="ptxt">Loading Portfolio</div></div>
+<div class="cdot" id="cDot"></div><div class="cring" id="cRing"></div>
+<canvas id="pCv" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none"></canvas>
 
-	<app-root></app-root>
-	<!--================Footer Area =================-->
-	<footer class="footer_area">
-		<div class="container">
-			<div class="row col-lg-12">
-				<div class="col-lg-4">
-					<!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+<nav class="nav" id="nav"><div class="container nav-inner"><a href="#" class="nav-logo">bhavdip<span class="dot">.</span></a><ul class="nav-menu" id="navMenu"><li><a href="#about" onclick="closeNav()">About</a></li><li><a href="#ai-lab" onclick="closeNav()">AI Lab</a></li><li><a href="#experience" onclick="closeNav()">Experience</a></li><li><a href="#skills" onclick="closeNav()">Skills</a></li><li><a href="#portfolio" onclick="closeNav()">Portfolio</a></li><li><a href="#contact" onclick="closeNav()"><span class="nav-cta">Hire Me</span></a></li></ul><div class="hamburger" id="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></div></div></nav>
 
-					<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget'
-						style='display: inline-block;'>
-						<a itemprop='url' href=https://www.fiverr.com/bhavdiptalaviya rel="nofollow" target="_blank"
-							style='display: inline-block;'>
-							<div class='fiverr-seller-content'
-								id='fiverr-seller-widget-content-9f8d1ff0-5a41-478b-b6a4-5493d3be09fc'
-								itemprop='contentURL' style='display: none;'></div>
-							<div id='fiverr-widget-seller-data' style='display: none;'>
-								<div itemprop='name'>bhavdiptalaviya</div>
-								<div itemscope itemtype='http://schema.org/Organization'><span
-										itemprop='name'>Fiverr</span></div>
-								<div itemprop='jobtitle'>Seller</div>
-								<div itemprop='description'>Professional website development EXPERT in Asp.net MVC, C#,
-									Microsoft SQL Server, and WORDPRESS website development.
+<section class="hero" id="hero"><div class="hero-bg-grid"></div><div class="hero-glow1"></div><div class="hero-glow2"></div><div class="container"><div class="hero-grid"><div>
+<div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>Open for Opportunities &amp; AI Consulting</div>
+<h2 class="hero-name">Hi, I'm Bhavdip Talaviya</h2>
+<h1 class="hero-title"><span class="acc">AI-Powered</span><br>.NET Architect &amp;<br>Technical Lead</h1>
+<p class="hero-desc">Lead Full Stack Engineer with <strong id="dynY">10</strong>+ years building enterprise solutions. I architect intelligent systems — from full-stack web apps to AI-powered automation pipelines.</p>
+<div class="hero-term"><div class="tbar"><span class="td tdr"></span><span class="td tdy"></span><span class="td tdg"></span></div>
+<div class="tl"><span class="tcm">// Full Stack Development &amp; AI Automation</span></div>
+<div class="tl"><span class="tp">$</span> <span class="tc">dev-stack</span> <span class="ts">--mode=fullstack --ai=enabled</span></div>
+<div class="tl"><span class="tok">&#10003;</span> ASP.NET MVC / .NET Core / Web API — ready</div>
+<div class="tl"><span class="tok">&#10003;</span> Angular / jQuery / Bootstrap — frontend built</div>
+<div class="tl"><span class="tok">&#10003;</span> PostgreSQL / SQL Server / Redis — DB optimized</div>
+<div class="tl"><span class="tok">&#10003;</span> Azure / Cloud / CI-CD — deployed to production</div>
+<div class="tl"><span class="tok">&#10003;</span> AI Agent: code gen &#8594; test &#8594; PR &#8594; merge <span class="tc">&#9989;</span></div>
+<div class="tl"><span class="tp">$</span> <span id="typedCmd"></span><span class="tcur"></span></div></div>
+<div class="hero-btns"><a href="#portfolio" class="btn btn-f">View Projects &#8594;</a><a href="#contact" class="btn btn-o">Contact Me</a><a href="#ai-consult" class="btn btn-a">AI Consulting</a></div>
+<div class="hero-stats"><div><div class="hsn" id="statY">10+</div><div class="hsl">Years Experience</div></div><div><div class="hsn">80+</div><div class="hsl">Projects Delivered</div></div><div><div class="hsn">20+</div><div class="hsl">AI Workflows</div></div></div>
+</div>
+<div class="hero-right"><div class="hero-img-wrap">
+<img src="https://ik.imagekit.io/Bhavdip/IMG_9687.png" alt="Bhavdip Talaviya" class="hero-img" onerror="this.style.display='none'" style="width:90%;max-height:579px;object-fit:cover;object-position:top center;border-radius:0 0 36px 36px">
+<div class="hero-float hf-desktop"><div class="fl">Experience</div><div class="fv"><span class="a" id="floatY">10</span>+ Years</div></div>
+<div class="hero-float hf-desktop"><div class="fl">Speciality</div><div class="fv"><span class="a">.NET Full Stack</span></div></div>
+<div class="hero-float hf-desktop"><div class="fl">AI Expertise</div><div class="fv"><span class="a">Agentic AI</span></div></div>
+<div class="hero-float hf-desktop"><div class="fl">Database</div><div class="fv"><span class="a">PostgreSQL</span></div></div>
+</div>
+<div class="hero-mobile-badges">
+<div class="hm-badge"><span class="fl">Experience</span><span class="fv"><span class="a" id="floatYm">10</span>+ Yrs</span></div>
+<div class="hm-badge"><span class="fl">Speciality</span><span class="fv"><span class="a">.NET</span></span></div>
+<div class="hm-badge"><span class="fl">AI</span><span class="fv"><span class="a">Agentic</span></span></div>
+<div class="hm-badge"><span class="fl">DB</span><span class="fv"><span class="a">PostgreSQL</span></span></div>
+</div>
+<div class="hero-socials">
+<a href="https://linkedin.com/in/bhavdiptalaviya" target="_blank" class="hero-slink" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+<div class="hero-sline"></div>
+<a href="https://github.com/bhavdip13" target="_blank" class="hero-slink" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+<div class="hero-sline"></div>
+<a href="mailto:talaviya.bhavdip@gmail.com" class="hero-slink" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg></a>
+</div></div></div></div></section>
 
-									I will make your business website with responsive & attractive design also theme
-									installation within 5 days.
+<div class="marquee"><div class="marquee-track" id="mqTrack"></div></div>
 
-									As a web consultant having an experience of 8+ years, Let's discuss and develop
-									something awesome for you
-									Key focus points :
+<section class="sp" id="about"><div class="container"><div class="about-grid">
+<div class="reveal"><div class="sh"><div class="sl">About Me</div><h2 class="st">Transforming Development with <span class="a">AI &amp; Full Stack Expertise</span></h2></div>
+<div class="about-text"><p>I'm a <strong>Lead .NET Full Stack Developer &amp; AI Innovation Architect</strong> with <strong id="aboutY">10</strong>+ years of industry experience. Currently Technical Lead at <strong>Casepoint</strong>, specializing in enterprise-grade cloud solutions and AI-driven workflows.</p><p>My passion lies at the intersection of <strong>traditional software engineering</strong> and <strong>cutting-edge AI</strong>. I've built autonomous code generation agents, designed Power Automate workflows, and led teams delivering solutions for thousands of users.</p><p>I offer <strong>AI consulting services</strong> to help organizations adopt AI-powered development automation.</p></div></div>
+<div class="reveal"><div class="about-hl"><div class="ahl"><div class="ahl-i">&#129302;</div><div class="ahl-t">AI Agent Builder</div><div class="ahl-d">Autonomous code gen &amp; deployment</div></div><div class="ahl"><div class="ahl-i">&#9729;&#65039;</div><div class="ahl-t">Cloud Architect</div><div class="ahl-d">Azure, M365, Google Vault, Slack</div></div><div class="ahl"><div class="ahl-i">&#128101;</div><div class="ahl-t">Team Leader</div><div class="ahl-d">Led 20+ engineers, 40% efficiency</div></div><div class="ahl"><div class="ahl-i">&#9889;</div><div class="ahl-t">Agile Champion</div><div class="ahl-d">Scrum, sprint automation</div></div></div>
+<div class="cbanner" id="ai-consult"><div><h4>&#128640; AI Development Consulting</h4><p>Want to automate code development with AI? I help companies implement agentic AI and Power Automate systems.</p></div><a href="#contact" class="btn btn-a" style="white-space:nowrap;padding:12px 22px;font-size:.82rem">Get In Touch</a></div></div>
+</div></div></section>
 
-									1. 8+ years of maturity in the IT Industry
-									2. Agile methodology based project execution
-									3. Proven Project Management Software
-									4. Minimum response time
-									5. Only committed to quality
-									6. Cost-effective approach
-									7. Open for onsite work if feasible</div>
-							</div>
-						</a>
-					</div>
+<section class="sp" id="ai-lab" style="background:var(--bg2)"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">AI Innovation Lab</div><h2 class="st">Building the Future with <span class="a">AI Automation</span></h2></div>
+<div class="ai-cards">
+<div class="ai-card ai-spot reveal"><div><div class="ai-card-i">&#129302;</div><h3>Autonomous Code Development Agent</h3><p>Fully automated coding pipeline using Claude AI &#8212; requirement analysis, code generation, branch creation, testing, conflict resolution, PR generation, and auto-merge.</p><div class="ai-tags"><span class="ai-tag">Claude AI</span><span class="ai-tag">Agentic AI</span><span class="ai-tag">GitHub API</span><span class="ai-tag">CI/CD</span></div></div>
+<div class="flow-vis"><div class="fstep"><div class="fnum">1</div><span>&#128203; Requirement &#8594; Claude AI plans</span></div><div class="fline animated-line"></div><div class="fstep"><div class="fnum">2</div><span>&#128187; Auto-generate production code</span></div><div class="fline animated-line"></div><div class="fstep"><div class="fnum">3</div><span>&#128256; Create branch &amp; checkout</span></div><div class="fline animated-line"></div><div class="fstep"><div class="fnum">4</div><span>&#129514; Level 1 tests &amp; validation</span></div><div class="fline animated-line"></div><div class="fstep"><div class="fnum">5</div><span>&#128260; Rebase &#8594; resolve conflicts</span></div><div class="fline animated-line"></div><div class="fstep"><div class="fnum">6</div><span>&#128640; PR &#8594; review &#8594; auto-merge &#9989;</span></div></div></div>
+<div class="ai-card reveal"><div class="ai-card-i" style="background:rgba(124,58,237,.07)">&#9889;</div><h3>Power Automate Workflows</h3><p>Intelligent automation for sprint management, email parsing, report generation, and data sync.</p><div class="ai-tags"><span class="ai-tag">Power Automate</span><span class="ai-tag">RPA</span></div></div>
+<div class="ai-card reveal"><div class="ai-card-i" style="background:rgba(6,214,160,.07)">&#128269;</div><h3>AI-Assisted Code Reviews</h3><p>Claude AI-powered code analysis &#8212; detect anti-patterns, suggest optimizations, enforce standards.</p><div class="ai-tags"><span class="ai-tag">Claude AI</span><span class="ai-tag">Code Quality</span></div></div>
+<div class="ai-card reveal"><div class="ai-card-i" style="background:rgba(249,115,22,.07)">&#129504;</div><h3>AI-Enhanced Testing</h3><p>AI-generated test cases and regression suites. 60% testing time reduction.</p><div class="ai-tags"><span class="ai-tag">AI Testing</span><span class="ai-tag">Automation</span></div></div>
+<div class="ai-card reveal"><div class="ai-card-i" style="background:rgba(236,72,153,.07)">&#128202;</div><h3>Intelligent Documentation</h3><p>Auto-generated technical docs and API references from codebase analysis.</p><div class="ai-tags"><span class="ai-tag">Auto-Docs</span><span class="ai-tag">Claude AI</span></div></div>
+<div class="ai-card reveal"><div class="ai-card-i">&#127919;</div><h3>Prompt Engineering</h3><p>Expert prompt design for enterprise AI applications and automation.</p><div class="ai-tags"><span class="ai-tag">Prompt Design</span><span class="ai-tag">LLM</span></div></div>
+</div></div></section>
 
-					<script id='fiverr-seller-widget-script-9f8d1ff0-5a41-478b-b6a4-5493d3be09fc'
-						src='https://widgets.fiverr.com/api/v1/seller/bhavdiptalaviya?widget_id=9f8d1ff0-5a41-478b-b6a4-5493d3be09fc'
-						data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
+<section class="sp" id="experience"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">Career Journey</div><h2 class="st">Professional <span class="a">Experience</span></h2></div>
+<div class="timeline">
+<div class="tl-i reveal"><div class="tl-dot"></div><div class="tl-d">Jul 2020 &#8212; Present &#183; Surat, India</div><div class="tl-c"><div class="tl-r">Technical Lead <span class="tl-ai">AI-Powered</span></div><div class="tl-co">Casepoint &#8212; eDiscovery Platform</div><ul class="tl-l"><li>Built autonomous code generation agent using Claude AI &#8212; fully automated SDLC</li><li>Implemented enterprise cloud integrations (M365, Google Vault, Slack) &#8212; 40% data accessibility increase</li><li>Led cross-functional teams &#8212; 15% improvement in delivery timelines</li><li>Engineered 60% API testing enhancement via AI-assisted rate limiting</li><li>Led PostgreSQL/SQL database design &#8212; 40% reduction in critical bugs</li><li>Mentored 20+ interns through AI-augmented workflows &#8212; 50% productivity increase</li><li>Championed Agile/Scrum with Power Automate sprint automation</li></ul></div></div>
+<div class="tl-i reveal"><div class="tl-dot"></div><div class="tl-d">Jun 2018 &#8212; Jun 2020 &#183; Surat, India</div><div class="tl-c"><div class="tl-r">Sr. Software Engineer</div><div class="tl-co">Vision InfoTech</div><ul class="tl-l"><li>Developed web apps (Hana Florist, NES, OSY, POS) serving 1K+ users</li><li>Led QuickBooks integration for US companies via .NET C# &amp; REST APIs</li><li>Managed version control via GitHub and VSTS</li><li>Deployed and maintained apps on IIS and production servers</li></ul></div></div>
+<div class="tl-i reveal"><div class="tl-dot"></div><div class="tl-d">Jun 2016 &#8212; May 2018 &#183; Surat, India</div><div class="tl-c"><div class="tl-r">Software Engineer</div><div class="tl-co">D&amp;K Technologies</div><ul class="tl-l"><li>Built 4+ diamond retail platforms (Pansuriya Impex, World Shiner, Excel Overseas, HVK)</li><li>Improved user engagement 30%, reduced page load times 40%</li><li>Designed SQL Server databases with stored procedures</li></ul></div></div>
+<div class="tl-i reveal"><div class="tl-dot"></div><div class="tl-d">Jan 2015 &#8212; Jun 2016 &#183; Gandhinagar, India</div><div class="tl-c"><div class="tl-r">Associate Software Engineer</div><div class="tl-co">Shreedhoon InfoTech</div><ul class="tl-l"><li>ASP.NET MVC C# web apps with jQuery</li><li>Built 4 desktop apps and 5 local websites</li></ul></div></div>
+</div></div></section>
 
-				</div>
-				<div class="footer_top flex-column">
-					<div class="footer_logo">
-						<a href="#">
-							<img src="assets/img/logo2.png" alt="bhavdip talaviya logo" style="width: 75px;">
-						</a>
-						<div class="d-lg-block d-none">
-							<nav class="navbar navbar-expand-lg navbar-light justify-content-center">
-								<div class="collapse navbar-collapse offset">
-									<ul class="nav navbar-nav menu_nav mx-auto">
-										<li class="nav-item"><a class="nav-link text-white" href="/home">Home</a>
-										</li>
-										<li class="nav-item"><a class="nav-link text-white"
-												href="/about">About</a></li>
-										<li class="nav-item"><a class="nav-link text-white"
-												href="/portfolio">Portfolio</a></li>
-										<!-- <li class="nav-item"><a class="nav-link text-white" href="/blog">BLog</a> 
-										</li>-->
-										<li class="nav-item"><a class="nav-link text-white"
-												href="/services">Services </a></li>
-									</ul>
-								</div>
-							</nav>
-						</div>
-					</div>
-					<div class="footer_social mt-lg-0 mt-4">
-						<a target="_blank" href="https://www.linkedin.com/in/bhavdiptalaviya"><i
-								class="fab fa-linkedin-in"></i></a>
-						<a target="_blank" href="https://www.facebook.com/talaviya.bhavdip"><i
-								class="fab fa-facebook-f"></i></a>
-						<a target="_blank" href="https://twitter.com/bhavdiptalaviya"><i class="fab fa-twitter"></i></a>
-						<a target="_blank" href="https://www.instagram.com/bhavdip13/"><i
-								class="fab fa-instagram"></i></a>
+<section class="sp" id="skills" style="background:var(--bg2)"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">Tech Stack</div><h2 class="st">Skills &amp; <span class="a">Technologies</span></h2></div>
+<div class="skills-grid">
+<div class="sk-cat reveal"><div class="sk-hd"><div class="sk-ic" style="background:rgba(0,229,255,.07)">&#129302;</div><div class="sk-nm">AI &amp; Automation</div></div><div class="sk-tags"><span class="sk-t glow">Claude AI</span><span class="sk-t glow">Agentic AI</span><span class="sk-t glow">Power Automate</span><span class="sk-t glow">GitHub Copilot</span><span class="sk-t glow">Prompt Engineering</span><span class="sk-t glow">RPA</span></div></div>
+<div class="sk-cat reveal"><div class="sk-hd"><div class="sk-ic" style="background:rgba(124,58,237,.07)">&#9881;&#65039;</div><div class="sk-nm">Backend</div></div><div class="sk-tags"><span class="sk-t">C#</span><span class="sk-t">ASP.NET MVC</span><span class="sk-t">.NET Core</span><span class="sk-t">Web API</span><span class="sk-t">Entity Framework</span><span class="sk-t">LINQ</span><span class="sk-t">Azure</span></div></div>
+<div class="sk-cat reveal"><div class="sk-hd"><div class="sk-ic" style="background:rgba(249,115,22,.07)">&#127912;</div><div class="sk-nm">Frontend</div></div><div class="sk-tags"><span class="sk-t">HTML5/CSS3</span><span class="sk-t">JavaScript</span><span class="sk-t">jQuery</span><span class="sk-t">Angular</span><span class="sk-t">Bootstrap</span><span class="sk-t">Kendo UI</span></div></div>
+<div class="sk-cat reveal"><div class="sk-hd"><div class="sk-ic" style="background:rgba(6,214,160,.07)">&#128451;&#65039;</div><div class="sk-nm">Database</div></div><div class="sk-tags"><span class="sk-t">PostgreSQL</span><span class="sk-t">MS SQL Server</span><span class="sk-t">Redis</span><span class="sk-t">Stored Procedures</span></div></div>
+<div class="sk-cat reveal"><div class="sk-hd"><div class="sk-ic" style="background:rgba(236,72,153,.07)">&#128295;</div><div class="sk-nm">DevOps</div></div><div class="sk-tags"><span class="sk-t">GitHub</span><span class="sk-t">TFS/VSTS</span><span class="sk-t">SVN</span><span class="sk-t">IIS</span><span class="sk-t">CI/CD</span><span class="sk-t">Agile/Scrum</span></div></div>
+<div class="sk-cat reveal"><div class="sk-hd"><div class="sk-ic" style="background:rgba(255,215,0,.07)">&#128200;</div><div class="sk-nm">Integrations</div></div><div class="sk-tags"><span class="sk-t">Microsoft 365</span><span class="sk-t">Google Vault</span><span class="sk-t">Slack</span><span class="sk-t">QuickBooks</span><span class="sk-t">Highcharts</span><span class="sk-t">Crystal Reports</span></div></div>
+</div></div></section>
 
-						<!-- <a href="#"><i class="fab fa-skype"></i></a> -->
-						<!-- <a href="#"><i class="fab fa-pinterest-p"></i></a> -->
+<section class="sp" id="portfolio"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">Featured Projects</div><h2 class="st">Project <span class="a">Portfolio</span></h2><p class="ss" style="margin:12px auto 0">80+ projects across ASP.NET MVC, WordPress, UI/UX, Angular, and more.</p></div>
+<div class="port-filters reveal" id="portFilters"></div>
+<div class="port-grid" id="portGrid"></div>
+<div class="ppnav" id="ppnav"></div>
+</div></section>
 
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<!--c charp corner code here-->
-				</div>
-			</div>
-			<div class="row footer_bottom justify-content-center">
-				<p class="col-lg-8 col-sm-12 footer-text">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy; <span id="year">2018</span> All rights reserved | This website is made <i
-						class="fa fa-heart" aria-hidden="true"></i> by <a target="_blank">Bhavdip</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</p>
-			</div>
-		</div>
-	</footer>
-	<!--================End Footer Area =================-->
-<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="es2015-polyfills.js" nomodule></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/stellar.js"></script>
-<script src="assets/vendors/isotope/imagesloaded.pkgd.min.js"></script>
-<script src="assets/vendors/isotope/isotope-min.js"></script>
-<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="assets/js/mail-script.js"></script>
-<!--gmaps Js-->
+<section class="sp" style="background:var(--bg2)"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">Recognition</div><h2 class="st">Awards &amp; <span class="a">Certifications</span></h2></div>
+<div class="awards-grid"><div class="aw-card reveal"><div class="aw-i">&#127941;</div><div class="aw-t">C# Corner MVP</div><div class="aw-o">Most Valuable Professional</div></div><div class="aw-card reveal"><div class="aw-i">&#11088;</div><div class="aw-t">Super Lead</div><div class="aw-o">Casepoint</div></div><div class="aw-card reveal"><div class="aw-i">&#128640;</div><div class="aw-t">Sprint Delivery Stud</div><div class="aw-o">Casepoint</div></div><div class="aw-card reveal"><div class="aw-i">&#128274;</div><div class="aw-t">Security Awareness</div><div class="aw-o">KnowBe4</div></div></div>
+</div></section>
 
-<script src="assets/js/gmaps.min.js"></script>
-<script src="assets/js/theme.js"></script>
+<section class="sp"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">Education</div><h2 class="st">Academic <span class="a">Background</span></h2></div>
+<div class="edu-grid"><div class="edu-c reveal"><div class="edu-d">M.C.A. &#8212; Master of Computer Application</div><div class="edu-s">Gujarat Technological University (GTU)</div><div class="edu-dt">2013 &#8212; 2015 &#183; Ahmedabad</div></div><div class="edu-c reveal"><div class="edu-d">B.C.A. &#8212; Bachelor of Computer Application</div><div class="edu-s">Saurashtra University</div><div class="edu-dt">2009 &#8212; 2012 &#183; Rajkot</div></div></div>
+</div></section>
+
+<section class="sp" id="contact" style="background:var(--bg2)"><div class="container">
+<div class="sh reveal" style="text-align:center"><div class="sl" style="justify-content:center">Get In Touch</div><h2 class="st">Let's Build Something <span class="a">Extraordinary</span></h2><p class="ss" style="margin:12px auto 0">Open to opportunities. Need AI consulting? Let's talk.</p></div>
+<div class="contact-grid reveal"><div class="contact-left"><h3>Ready to innovate?</h3><p>Whether you need a technical lead, AI consultant, or enterprise architect &#8212; I'd love to connect.</p>
+<div class="clinks">
+<a href="mailto:talaviya.bhavdip@gmail.com" class="cl"><div class="cl-i">&#128231;</div><div><div class="cl-n">Email</div><div class="cl-v">talaviya.bhavdip@gmail.com</div></div></a>
+<a href="tel:+919825891108" class="cl"><div class="cl-i">&#128241;</div><div><div class="cl-n">Phone</div><div class="cl-v">+91 982 5891108</div></div></a>
+<a href="https://linkedin.com/in/bhavdiptalaviya" target="_blank" class="cl"><div class="cl-i">&#128188;</div><div><div class="cl-n">LinkedIn</div><div class="cl-v">linkedin.com/in/bhavdiptalaviya</div></div></a>
+<a href="https://github.com/bhavdip13" target="_blank" class="cl"><div class="cl-i">&#9000;</div><div><div class="cl-n">GitHub</div><div class="cl-v">github.com/bhavdip13</div></div></a>
+</div></div>
+<div><form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="770488d1-c295-4d48-a508-c770fea0f1e7">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<input type="text" name="subject" placeholder="Subject (e.g., AI Consulting)">
+<textarea name="message" placeholder="Tell me about your project..." required></textarea>
+<button type="submit" class="btn btn-f" style="width:100%;justify-content:center" id="submitBtn">Send Message &#8594;</button>
+<div id="formStatus" style="text-align:center;padding:10px;font-size:.85rem;border-radius:8px;display:none"></div>
+</form>
+
+</div></div></div></section>
+
+<footer class="footer"><div class="container footer-inner"><div class="footer-copy">&copy; <span id="footerYear"></span> Bhavdip Talaviya. All rights reserved.</div><div class="footer-links"><a href="https://linkedin.com/in/bhavdiptalaviya" target="_blank">LinkedIn</a><a href="https://github.com/bhavdip13" target="_blank">GitHub</a><a href="mailto:talaviya.bhavdip@gmail.com">Email</a></div></div></footer>
+
 <script>
-	document.getElementById("year").innerHTML = new Date().getFullYear();
-</script>
+const CS=new Date(2015,0,1),NOW=new Date(),YRS=Math.floor((NOW-CS)/(365.25*864e5));
+document.querySelectorAll('#dynY,#aboutY').forEach(e=>e.textContent=YRS);
+document.getElementById('statY').textContent=YRS+'+';
+document.getElementById('floatY').textContent=YRS;
+if(document.getElementById('floatYm'))document.getElementById('floatYm').textContent=YRS;
+document.getElementById('footerYear').textContent=NOW.getFullYear();
+window.addEventListener('load',()=>{setTimeout(()=>document.getElementById('preloader').classList.add('done'),1300)});
+function toggleNav(){document.getElementById('navMenu').classList.toggle('open');document.getElementById('hamburger').classList.toggle('active')}
+function closeNav(){document.getElementById('navMenu').classList.remove('open');document.getElementById('hamburger').classList.remove('active')}
+addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',scrollY>50));
+const dot=document.getElementById('cDot'),ring=document.getElementById('cRing');
+if(innerWidth>768){document.addEventListener('mousemove',e=>{dot.style.left=e.clientX-3+'px';dot.style.top=e.clientY-3+'px';ring.style.left=e.clientX-20+'px';ring.style.top=e.clientY-20+'px'});document.querySelectorAll('a,button,.btn').forEach(el=>{el.addEventListener('mouseenter',()=>{ring.style.transform='scale(1.5)';ring.style.borderColor='rgba(0,229,255,.6)'});el.addEventListener('mouseleave',()=>{ring.style.transform='scale(1)';ring.style.borderColor='rgba(0,229,255,.3)'})})}
+const phrases=['Building enterprise web applications...','Deploying .NET Core microservices...','Designing PostgreSQL databases...','Integrating QuickBooks REST APIs...','Automating CI/CD with AI agents...','Running Angular + jQuery frontends...','Scaling Azure cloud architecture...'];
+let pI=0,cI=0,del=false;const tEl=document.getElementById('typedCmd');
+function typeLoop(){const p=phrases[pI];if(del){tEl.textContent=p.substring(0,cI--);if(cI<0){del=false;pI=(pI+1)%phrases.length;setTimeout(typeLoop,300);return}setTimeout(typeLoop,22)}else{tEl.textContent=p.substring(0,cI++);if(cI>p.length){del=true;setTimeout(typeLoop,2000);return}setTimeout(typeLoop,50)}}
+setTimeout(typeLoop,1500);
+const mItems=['Claude AI','Agentic AI','.NET Core','C#','Power Automate','Azure','PostgreSQL','REST APIs','GitHub Copilot','jQuery','Angular','ASP.NET MVC','QuickBooks','SQL Server','Redis','Bootstrap','Entity Framework'];
+const mqT=document.getElementById('mqTrack');mqT.innerHTML=mItems.map(i=>'<span class="marquee-item"><span class="mqdot"></span>'+i+'</span>').join('')+mItems.map(i=>'<span class="marquee-item"><span class="mqdot"></span>'+i+'</span>').join('');
 
+// Portfolio
+const IMG='https://bhavdip13.github.io/portfolio/assets/img/portfolio/';
+const allP=[
+// === Casepoint Projects (Technical Lead) ===
+{t:'Casepoint eDiscovery Platform',c:'Enterprise',img:'',ico:'&#9878;&#65039;',gr:'linear-gradient(135deg,#0a1628,#1a2040)',tech:'.NET Core / Web API / Azure'},
+{t:'Microsoft 365 Cloud Integration',c:'Enterprise',img:'',ico:'&#9729;&#65039;',gr:'linear-gradient(135deg,#0a1020,#102040)',tech:'.NET SDK / REST API / Cloud'},
+{t:'Google Vault Integration',c:'Enterprise',img:'',ico:'&#128274;',gr:'linear-gradient(135deg,#0f1a10,#1a3020)',tech:'.NET Core / Google API / Cloud'},
+{t:'Slack Enterprise Integration',c:'Enterprise',img:'',ico:'&#128172;',gr:'linear-gradient(135deg,#1a0a20,#2a1040)',tech:'.NET Core / Slack API / Web API'},
+{t:'AI Code Generation Agent',c:'Enterprise',img:'',ico:'&#129302;',gr:'linear-gradient(135deg,#0a1020,#0a2030)',tech:'Claude AI / Agentic AI / GitHub API'},
+{t:'Power Automate Workflow Suite',c:'Enterprise',img:'',ico:'&#9889;',gr:'linear-gradient(135deg,#1a1000,#302008)',tech:'Power Automate / RPA / M365'},
+{t:'API Rate Limiting & Throttling',c:'Enterprise',img:'',ico:'&#128202;',gr:'linear-gradient(135deg,#0a0a1a,#14142a)',tech:'.NET Core / PostgreSQL / Testing'},
+// === Vision InfoTech Projects (Sr. Software Engineer) ===
+{t:'Hana Florist Web App',c:'Asp.Net MVC',img:'',ico:'&#127800;',gr:'linear-gradient(135deg,#1a100a,#2a1810)',tech:'Asp.Net MVC / C# / SQL Server'},
+{t:'Florist POS System',c:'Asp.Net MVC',img:'',ico:'&#128176;',gr:'linear-gradient(135deg,#0a1a0a,#103010)',tech:'.NET C# / QuickBooks API / IIS'},
+{t:'NES Web Application',c:'Asp.Net MVC',img:'',ico:'&#128196;',gr:'linear-gradient(135deg,#0a1018,#141a28)',tech:'Asp.Net MVC / C# / jQuery'},
+{t:'OSY Web Application',c:'Asp.Net MVC',img:'',ico:'&#128188;',gr:'linear-gradient(135deg,#100a18,#1a1028)',tech:'Asp.Net MVC / C# / SQL Server'},
+{t:'QuickBooks Online Integration',c:'Asp.Net MVC',img:'',ico:'&#128179;',gr:'linear-gradient(135deg,#0a180a,#0a2810)',tech:'.NET C# / QuickBooks REST API'},
+{t:'QuickBooks Offline Integration',c:'Asp.Net MVC',img:'',ico:'&#128178;',gr:'linear-gradient(135deg,#10180a,#1a2810)',tech:'.NET C# / Web Services / SQL'},
+// === D&K Technologies Projects (Software Engineer) ===
+{t:'Pansuriya Impex',c:'Asp.Net MVC',img:'',ico:'&#128142;',gr:'linear-gradient(135deg,#10101a,#1a1a2a)',tech:'Asp.Net MVC / C# / SQL Server'},
+{t:'World Shiner',c:'Asp.Net MVC',img:'',ico:'&#10024;',gr:'linear-gradient(135deg,#0a0a18,#141428)',tech:'Asp.Net MVC / C# / SQL Server'},
+{t:'Excel Overseas',c:'Asp.Net MVC',img:'',ico:'&#127757;',gr:'linear-gradient(135deg,#0a100a,#0a1a10)',tech:'Asp.Net MVC / jQuery / SQL'},
+{t:'HVK Online Diamond',c:'Asp.Net MVC',img:'',ico:'&#128160;',gr:'linear-gradient(135deg,#0f0a18,#1a1028)',tech:'Asp.Net MVC / C# / Bootstrap'},
+// === Existing Portfolio Projects ===
+{t:'Wishtech IT Company',c:'UI/UX & HTML',img:IMG+'wishtech.png',tech:'HTML & PHP'},
+{t:'Academy of Intl Business',c:'UI/UX & HTML',img:IMG+'Academy.png',tech:'HTML & PHP'},
+{t:'Biz Landing',c:'UI/UX & HTML',img:IMG+'biz%20landing%20wireframe.jpg',tech:'UI/UX & HTML'},
+{t:'HungryHour App Landing',c:'UI/UX & HTML',img:IMG+'HungryHourAppLandingPage.png',tech:'UI/UX & HTML'},
+{t:'The Velstand Foundation',c:'UI/UX & HTML',img:IMG+'landing.png',tech:'UI/UX & HTML'},
+{t:'32nation E-commerce',c:'Asp.Net MVC',img:IMG+'32nation.png',tech:'Asp.Net / nopCommerce'},
+{t:'Inventory Management',c:'Asp.Net MVC',img:IMG+'IMS.png',tech:'Asp.Net MVC / C#'},
+{t:'Grab On Web',c:'Asp.Net MVC',img:IMG+'GOW.png',tech:'Asp.Net MVC / C#'},
+{t:'Novi Gaming & Draw',c:'Asp.Net MVC',img:IMG+'novitestinfo.png',tech:'Asp.Net MVC / C#'},
+{t:'HVK Diamond',c:'Asp.Net MVC',img:IMG+'hvkonline.jpg',tech:'Asp.Net MVC / C#'},
+{t:'Lifeturquoise',c:'Wordpress',img:IMG+'Lifeturquoise.png',tech:'Wordpress / CMS'},
+{t:'Genune Home Care',c:'Wordpress',img:IMG+'genunehomecare.png',tech:'Wordpress / CMS'},
+{t:'School Games Africa',c:'Wordpress',img:IMG+'schoolgems.africa.png',tech:'Wordpress / CMS'},
+{t:'Outsource Fleet Mgmt',c:'Wordpress',img:IMG+'OutsourceFleetManagement.png',tech:'Wordpress / CMS'},
+{t:'Horse Club',c:'Wordpress',img:IMG+'horseclub.png',tech:'Wordpress / CMS'},
+{t:'Hollow Management',c:'Wordpress',img:IMG+'httpshollowmanagement.png',tech:'Wordpress / CMS'},
+{t:'Car Service',c:'Wordpress',img:IMG+'httptraumwagen-check(dot)de.png',tech:'Wordpress / CMS'},
+{t:'Night Party Club',c:'Wordpress',img:IMG+'illumantinightclub.png',tech:'Wordpress / CMS'},
+{t:'Smart Dentistry',c:'Wordpress',img:IMG+'smartdentistrycouk.png',tech:'Wordpress / CMS'},
+{t:'Cool Coffee Mug',c:'Wordpress',img:IMG+'coolcofeemug.png',tech:'Wordpress / CMS'},
+{t:'Ailynwikner Blog',c:'Wordpress',img:IMG+'Ailynwikner.png',tech:'Wordpress / CMS'},
+];
+const cats=['All','Enterprise','Asp.Net MVC','Wordpress','UI/UX & HTML','Angular'];
+let aCat='All',pg=0;const PP=6;
+function bFilters(){document.getElementById('portFilters').innerHTML=cats.map(c=>'<button class="port-filter'+(c===aCat?' active':'')+'" onclick="fPort(\''+c+'\')">'+c+'</button>').join('')}
+function getF(){return aCat==='All'?allP:allP.filter(p=>p.c===aCat)}
+function rPort(){const f=getF(),tp=Math.ceil(f.length/PP),s=pg*PP,items=f.slice(s,s+PP);
+document.getElementById('portGrid').innerHTML=items.map(p=>{
+const hasImg=p.img&&p.img.length>5;
+const ico=p.ico||'&#128187;';
+const gr=p.gr||'linear-gradient(135deg,#0a0e1a,#141830)';
+const imgHtml=hasImg?'<img src="'+p.img+'" alt="'+p.t+'" onerror="this.parentElement.innerHTML=makeSvg(\''+p.t.replace(/'/g,"\\'")+'\',\''+ico+'\')">':'<div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:'+gr+';gap:6px"><span style="font-size:2.6rem">'+ico+'</span><span style="font-family:var(--fh);font-size:.7rem;color:rgba(255,255,255,.35);letter-spacing:.1em;text-transform:uppercase">'+p.c+'</span></div>';
+return '<div class="port-card reveal vis"><div class="port-img">'+imgHtml+'</div><div class="port-body"><div class="port-type">'+p.c+'</div><div class="port-title">'+p.t+'</div><div class="port-cat-label">'+p.tech+'</div></div></div>'}).join('');
+let nav='';if(tp>1){nav+='<button class="ppb" onclick="gP('+(pg-1)+')">&#8592;</button>';for(let i=0;i<tp;i++)nav+='<button class="ppb'+(i===pg?' active':'')+'" onclick="gP('+i+')">'+(i+1)+'</button>';nav+='<button class="ppb" onclick="gP('+(pg+1)+')">&#8594;</button>'}
+document.getElementById('ppnav').innerHTML=nav}
+function fPort(c){aCat=c;pg=0;bFilters();rPort()}
+function gP(p){const tp=Math.ceil(getF().length/PP);if(p<0)p=tp-1;if(p>=tp)p=0;pg=p;rPort();document.getElementById('portfolio').scrollIntoView({behavior:'smooth',block:'start'})}
+bFilters();rPort();
+
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('vis','visible')}),{threshold:.06,rootMargin:'0px 0px -20px 0px'});
+document.querySelectorAll('.reveal,.tl-i').forEach(el=>obs.observe(el));
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const t=document.querySelector(a.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth'})})});
+document.getElementById('contactForm').addEventListener('submit',async function(e){e.preventDefault();const btn=document.getElementById('submitBtn'),st=document.getElementById('formStatus');btn.textContent='Sending...';btn.disabled=true;try{const r=await fetch(this.action,{method:'POST',body:new FormData(this)});const d=await r.json();if(d.success){st.style.display='block';st.style.background='rgba(6,214,160,.1)';st.style.color='#06d6a0';st.style.border='1px solid rgba(6,214,160,.2)';st.textContent='Message sent! I will reply soon.';this.reset()}else{st.style.display='block';st.style.background='rgba(255,95,86,.1)';st.style.color='#ff5f56';st.textContent='Error. Please email me directly.'}}catch(err){st.style.display='block';st.style.background='rgba(255,95,86,.1)';st.style.color='#ff5f56';st.textContent='Network error. Email: talaviya.bhavdip@gmail.com'}btn.textContent='Send Message';btn.disabled=false;setTimeout(()=>{st.style.display='none'},5000)});
+const cv=document.getElementById('pCv'),cx=cv.getContext('2d');let pts=[];const PC=innerWidth>768?50:25;
+function rsCv(){cv.width=innerWidth;cv.height=innerHeight}rsCv();addEventListener('resize',rsCv);
+class P{constructor(){this.x=Math.random()*cv.width;this.y=Math.random()*cv.height;this.s=Math.random()*1.2+.3;this.sx=(Math.random()-.5)*.25;this.sy=(Math.random()-.5)*.25;this.o=Math.random()*.25+.04}u(){this.x+=this.sx;this.y+=this.sy;if(this.x<0||this.x>cv.width)this.sx*=-1;if(this.y<0||this.y>cv.height)this.sy*=-1}d(){cx.beginPath();cx.arc(this.x,this.y,this.s,0,Math.PI*2);cx.fillStyle='rgba(0,229,255,'+this.o+')';cx.fill()}}
+for(let i=0;i<PC;i++)pts.push(new P);
+function anim(){cx.clearRect(0,0,cv.width,cv.height);pts.forEach(p=>{p.u();p.d()});for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){const dx=pts[i].x-pts[j].x,dy=pts[i].y-pts[j].y,d=Math.sqrt(dx*dx+dy*dy);if(d<110){cx.beginPath();cx.moveTo(pts[i].x,pts[i].y);cx.lineTo(pts[j].x,pts[j].y);cx.strokeStyle='rgba(0,229,255,'+(0.03*(1-d/110))+')';cx.lineWidth=.5;cx.stroke()}}requestAnimationFrame(anim)}anim();
+</script>
+</body>
 </html>
